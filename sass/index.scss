@@ -1,0 +1,71 @@
+@import './varaibles';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    li{
+        list-style-type: none;
+    
+    }
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background-color:$backk;
+    a{
+        color: $secondary;
+        text-decoration: none;
+    }
+    .container{
+        max-width: 75%;
+        height: 50px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+        .navbar{
+        ul{
+            display:flex ;
+            column-gap: 15px;
+            color:$ulls;
+            li{
+                cursor: pointer;
+            }
+        }
+        }
+    }
+}
+
+main{
+    width: 100%;
+    background-color: black;
+    #container{
+        padding: 100px 0;
+        width: 30%;
+        text-align: center;
+        margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 15px;
+        h1{color: $secondary;
+            font-size: 42px;
+        
+        }
+        p{color:$orta;
+        letter-spacing: 2px;}
+button{
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+.get{
+    background-color: $button;
+}
+
+    }
+}
